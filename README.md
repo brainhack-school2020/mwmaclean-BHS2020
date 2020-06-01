@@ -19,24 +19,24 @@ The overall goal of the current project is to become more proficient with tools 
 This project will investigate the consequences of a primary visual cortex lesion on cerebral reorganization using magnetic resonance imaging, in particular diffusion MRI and/or resting state functional connectivity. For this, I will use previously acquired data from l'Unité de Neuroimagerie Fonctionnelle in Montréal. 
 
 The following objectives represent the next planned steps: 
-The first steps will be to try to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I plan to explore 3) analyzing diffusion MRI and 4) perform data visualization.
+The first steps will be to try to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I plan to explore 3) analyzing diffusion MRI (i.e. dwi tracking) and 4) perform data visualization.
 
 ### Tools 
 This project will rely on the following:
 * GitHub for creating a repository & assembling all the resources.
 * BIDS as a standard to organize the neuroimaging data
+* MRIcroGL to convert dicom files to nifti
 * Python 
-* Jupyter Notebook to create and document the code and analyze data
-* Tractoflow pipeline to process the dataset from the raw diffusion weighted images (DWI) to tractography
-* Docker container to run TractoFlow
-* fMRI prep for resting state data
+* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
+* Docker container to run preprocessing pipeline
+* Jupyter Notebook to document the process and for data visualization
 * Data visualization tools (e.g. Numpy, Matplotlib, Seaborn).
 
 
 ### Data 
 MRI data was acquired with a high resolution 3 Tesla scanner (Siemens Trio system) and consists of a preliminary data set of 5 subjects, including 1 individual with cortical visual impairment with blindsight and 4 neurotypical controls. For each participant, raw structural MRI, resting state functional connectivity, fMRI and diffusion MRI data is avaiblable. 
 
-Given the time course of the summer school, after the initial preprocessing of the data, I will first focus on working with the diffusion MRI data. I plan to then explore the resting state functional connectivity data if possible. I believe this data set will allow to first become familiarized with the new neuroimaging tools and create anaylses scripts. When I eventually acquire more data during the rest of my PhD, I will hopefully be able to modify the scripts and work on a larger data set.
+Given the time course of the summer school, after the initial preprocessing of the data, I will first focus on working with the diffusion MRI data. I believe this data set will allow to first become familiarized with the new neuroimaging tools and create anaylses scripts. When I eventually acquire more data during the rest of my PhD, I will hopefully be able to modify the scripts and work on a larger data set.
 
 ![](CVI.png)
 
@@ -56,7 +56,7 @@ At the end of this project I hope to have:
 
 ## Results 
 #### Deliverable 1: report 
-Coming soon!
+Organization of MRI data into BIDS format as well as preprocessing the diffusion data with a pipeline in docker
 
 #### Deliverable 2: TBD
 Coming soon!
@@ -66,7 +66,15 @@ Coming soon!
 The project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. Feedback is welcome!
 
 ### Tools I learned during this project
-TDB
+* Bash terminal
+* GitHub
+* How to implement BIDS
+* MRIcroGL
+* Python 
+* Docker container to run a preprocessing pipeline using ['this docker image'](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
+* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
+* Jupyter Notebook 
+* More coming soon!
  
 ## Conclusion and acknowledgement
 Thanks to the wonderful BrainHack School!
