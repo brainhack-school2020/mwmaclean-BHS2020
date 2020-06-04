@@ -9,14 +9,14 @@ Team contributors: Michèle MacLean & Brainhack School members
 
 Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
 
-The overall goal of the current project is to become more proficient with tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School. I'm very interested in working with a team or perhaps joining projects if possible (i.e. feel free to send me a message if you are working with diffusion MRI, resting state functional connectivity or fMRI)! 
+The overall goal of the current project is to become more proficient with tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
 
 
 ## Project definition 
 
 ### Background
 
-This project will investigate the consequences of a primary visual cortex lesion on cerebral reorganization using magnetic resonance imaging, in particular diffusion MRI and/or resting state functional connectivity. For this, I will use previously acquired data from l'Unité de Neuroimagerie Fonctionnelle in Montréal. 
+This project will explore the steps for analyzing diffusion magnetic resonance imaging data starting from the raw data all the way to data visualization. The long term goal is to investigate the consequences of a primary visual cortex lesion on cerebral reorganization using both diffusion MRI and/or resting state functional connectivity. For this, I will use previously acquired data from l'Unité de Neuroimagerie Fonctionnelle in Montréal. 
 
 The following objectives represent the next planned steps: 
 The first steps will be to try to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I plan to explore 3) analyzing diffusion MRI (i.e. dwi tracking) and 4) perform data visualization.
@@ -24,13 +24,14 @@ The first steps will be to try to 1) organize the MRI data in a BIDS friendly fo
 ### Tools 
 This project will rely on the following:
 * GitHub for creating a repository & assembling all the resources.
+* Bash terminal
+* Visual studio code
 * BIDS as a standard to organize the neuroimaging data
-* MRIcroGL to convert dicom files to nifti
 * Python 
-* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
 * Docker container to run preprocessing pipeline
+* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
 * Jupyter Notebook to document the process and for data visualization
-* Data visualization tools (e.g. Numpy, Matplotlib, Seaborn).
+* Data visualization tools (e.g. Nilearn, Plotly, Numpy, Matplotlib, Seaborn).
 
 
 ### Data 
@@ -47,19 +48,17 @@ The figure above is an example of an individual with cortical visual impairment 
 ### Deliverables
 At the end of this project I hope to have:
 * The current markdown document, completed and revised.
-* Python script for the main analyses 
-* Jupyter notebook (including explanations)
-* Data visualization graphs
+* Jupyter notebook (for data visualization)
 * Requirements.txt
 
 
 
 ## Results 
-#### Deliverable 1: report 
+#### Deliverable 1:
 Organization of MRI data into BIDS format as well as preprocessing the diffusion data with a pipeline in docker
 
-#### Deliverable 2: TBD
-Coming soon!
+#### Deliverable 2:
+Tracking diffusion MRI preprocessed data and performing data visualization 
 
 ### Progress overview
 
@@ -69,12 +68,12 @@ The project was initiated by Michèle MacLean May 19th 2020 as part of the Brain
 * Bash terminal
 * GitHub
 * How to implement BIDS
-* MRIcroGL
 * Python 
-* Docker container to run a preprocessing pipeline using ['this docker image'](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
-* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
+* Docker container to run a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
+* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI) [this docker image](https://hub.docker.com/r/gkiar/dipy_tracking)
 * Jupyter Notebook 
-* More coming soon!
+* Nilearn
+* & More!
  
 ## Conclusion and acknowledgement
 Thanks to the wonderful BrainHack School!
