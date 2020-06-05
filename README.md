@@ -9,7 +9,7 @@ Team contributors: Michèle MacLean & Brainhack School members
 
 Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
 
-The overall goal of the current project is to become more proficient with tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
+The overall goal of the current project is to use the tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
 
 
 ## Project definition 
@@ -28,7 +28,7 @@ This project will rely on the following:
 * Visual studio code
 * BIDS as a standard to organize the neuroimaging data
 * Python 
-* Docker container to run preprocessing pipeline
+* Docker container to run preprocessing pipeline and basic tracking
 * DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
 * Jupyter Notebook to document the process and for data visualization
 * Data visualization tools (e.g. Nilearn, Plotly, Numpy, Matplotlib, Seaborn).
@@ -43,13 +43,13 @@ Given the time course of the summer school, after the initial preprocessing of t
 
 The figure above is an example of an individual with cortical visual impairment to give you an idea of the type of data, where A) shows a T1-weighted anatomical scan with three different slice views showing the primary visual cortex removal in the left hemisphere and the destruction of the primary visual areas (V1) and B) the individual's visual field showing a symmetric loss across both eyes leading to a complete contralateral visual loss in the right visual field.
 
-
+As the dataset is not yet open access, feel free to send me a message if you have any questions and I'll be happy to answer!
 
 ### Deliverables
 At the end of this project I hope to have:
 * The current markdown document, completed and revised.
 * Jupyter notebook (for data visualization)
-* Requirements.txt
+* Requirements.txt for the Jupyter notebook
 
 
 
@@ -58,22 +58,26 @@ At the end of this project I hope to have:
 Organization of MRI data into BIDS format as well as preprocessing the diffusion data with a pipeline in docker
 
 #### Deliverable 2:
-Tracking diffusion MRI preprocessed data and performing data visualization 
+Tracking diffusion MRI data (preprocessed with deliverable 1) and performing data visualization 
 
 ### Progress overview
 
-The project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. Feedback is welcome!
+The project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. 
+Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete. Feedback is welcome!
 
 ### Tools I learned during this project
 * Bash terminal
 * GitHub
+* Visual Studio Code
 * How to implement BIDS
-* Python 
+* Python scripts 
 * Docker container to run a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
-* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI) [this docker image](https://hub.docker.com/r/gkiar/dipy_tracking)
+* [This python scricpt](https://github.com/gkiar/mask2boundary) for creating a seed mask
+* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI) using [this docker image](https://hub.docker.com/r/gkiar/dipy_tracking)
 * Jupyter Notebook 
-* Nilearn
+* Nilearn, plotly & matplotlib for data visualization
 * & More!
  
 ## Conclusion and acknowledgement
-Thanks to the wonderful BrainHack School!
+Thanks to the wonderful BrainHack School for this experience as well as all the ressources provided!
+Special thanks to my instructors Noor, Benjamin and Greg! 
