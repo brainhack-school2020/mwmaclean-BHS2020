@@ -81,7 +81,7 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * Bash terminal
 * GitHub
 * Visual Studio Code
-* How to implement BIDS
+* How to implement BIDS using [this tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/)
 * Python scripts 
 * Docker container to run a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
 * [This python scricpt](https://github.com/gkiar/mask2boundary) for creating a seed mask
