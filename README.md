@@ -52,9 +52,10 @@ At the end of this project I hope to have:
 * Jupyter notebook (for data visualization)
 * Requirements.txt for the Jupyter notebook
 
-**Week 1 Deliverable:**  [Assessement](https://github.com/mwmaclean/MacLean-M-QLSC612)
-**Week 3 Deliverable:** Data visualization: coming soon!
-**Week 4 Deliverable:** Presentation: coming soon!
+For the course:
+* **Week 1 Deliverable:**  [Assessement](https://github.com/mwmaclean/MacLean-M-QLSC612)
+* **Week 3 Deliverable:** Data visualization: coming soon!
+* **Week 4 Deliverable:** Presentation: coming soon!
 
 ### Results
 
