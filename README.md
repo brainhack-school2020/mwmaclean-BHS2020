@@ -11,7 +11,7 @@ Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de
 
 The overall goal of the current project is to use the tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
 
-![Logo Udem](logo_UdeM.png) ![Logo UNF](logo_unf.png)
+![Logo Udem](images/logo_UdeM.png) ![Logo UNF](images/logo_unf.png)
 
 ## Project definition 
 
@@ -40,7 +40,7 @@ MRI data was acquired with a high resolution 3 Tesla scanner (Siemens Trio syste
 
 Given the time course of the summer school, after the initial preprocessing of the data, I will first focus on working with the diffusion MRI data. I believe this data set will allow to first become familiarized with the new neuroimaging tools and create anaylses scripts. When I eventually acquire more data during the rest of my PhD, I will hopefully be able to modify the scripts and work on a larger data set.
 
-![](CVI.png)
+![](images/CVI.png)
 
 The figure above is an example of an individual with cortical visual impairment to give you an idea of the type of data, where A) shows a T1-weighted anatomical scan with three different slice views showing the primary visual cortex removal in the left hemisphere and the destruction of the primary visual areas (V1) and B) the individual's visual field showing a symmetric loss across both eyes leading to a complete contralateral visual loss in the right visual field.
 
