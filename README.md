@@ -67,10 +67,10 @@ Tracking diffusion MRI data (preprocessed with deliverable 1) and performing dat
 
 Data visualization: 
 1. Interactive correlation matrix with a drop-down for each subject (see image example below)
-![images/correlation_matrix.png]
+![](images/correlation_matrix.png)
 
 2. Interactive connectome on a glass brain with a drop-down for each subject (see image example below)
-![images/connectome_glassbrain.png]
+![](images/connectome_glassbrain.png)
 
 
 
