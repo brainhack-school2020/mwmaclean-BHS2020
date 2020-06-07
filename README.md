@@ -69,14 +69,14 @@ Data visualization:
 1. Interactive correlation matrix with a drop-down for each subject (see image example below)
 ![](images/correlation_matrix.png)
 
-2. Interactive connectome on a glass brain with a drop-down for each subject (see image example below)
+2. Interactive connectome projected on a 3D glass brain with a drop-down for each subject (see image example below)
 ![](images/connectome_glassbrain.png)
 
 
 
 ### Progress overview
 
-The project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. 
+This project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. 
 Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete. Feedback is welcome!
 
 ### Tools I learned during this project
