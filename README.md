@@ -11,6 +11,7 @@ Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de
 
 The overall goal of the current project is to use the tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
 
+![Logo Udem](logo_udem.png) ![Logo UNF](logo_unf.png)
 
 ## Project definition 
 
@@ -45,20 +46,27 @@ The figure above is an example of an individual with cortical visual impairment 
 
 As the dataset is not yet open access, feel free to send me a message if you have any questions and I'll be happy to answer!
 
-### Deliverables
+## Deliverables
 At the end of this project I hope to have:
 * The current markdown document, completed and revised.
 * Jupyter notebook (for data visualization)
 * Requirements.txt for the Jupyter notebook
 
+**Week 1 Deliverable:**  [Assessement](https://github.com/mwmaclean/MacLean-M-QLSC612)
+**Week 3 Deliverable:** Data visualization: coming soon!
+**Week 4 Deliverable:** Presentation: coming soon!
 
+### Results
 
-## Results 
-#### Deliverable 1:
+#### Project Deliverable 1:
 Organization of MRI data into BIDS format as well as preprocessing the diffusion data with a pipeline in docker
 
-#### Deliverable 2:
+#### Project Deliverable 2:
 Tracking diffusion MRI data (preprocessed with deliverable 1) and performing data visualization 
+Data visualization: 
+
+
+
 
 ### Progress overview
 
@@ -81,3 +89,5 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 ## Conclusion and acknowledgement
 Thanks to the wonderful BrainHack School for this experience as well as all the ressources provided!
 Special thanks to my instructors Noor, Benjamin and Greg! 
+
+## References
