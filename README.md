@@ -54,7 +54,7 @@ At the end of this project I hope to have:
 
 For the course:
 * **Week 1 Deliverable:**  [Assessement](https://github.com/mwmaclean/MacLean-M-QLSC612)
-* **Week 3 Deliverable:** Data visualization: coming soon!
+* **Week 3 Deliverable:** [Data visualization](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization)
 * **Week 4 Deliverable:** [Presentation](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/presentation)
 
 ### Results
