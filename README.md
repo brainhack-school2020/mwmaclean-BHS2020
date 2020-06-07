@@ -3,7 +3,7 @@ This project is part of the Brainhack School 2020
 
 Team contributors: Michèle MacLean & Brainhack School members
 
-![BrainHack School](bhs2020.png)
+![BrainHack School](images/bhs2020.png)
 
 ## Summary 
 
@@ -55,7 +55,7 @@ At the end of this project I hope to have:
 For the course:
 * **Week 1 Deliverable:**  [Assessement](https://github.com/mwmaclean/MacLean-M-QLSC612)
 * **Week 3 Deliverable:** Data visualization: coming soon!
-* **Week 4 Deliverable:** Presentation: coming soon!
+* **Week 4 Deliverable:** [Presentation](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/presentation)
 
 ### Results
 
@@ -64,7 +64,10 @@ Organization of MRI data into BIDS format as well as preprocessing the diffusion
 
 #### Project Deliverable 2:
 Tracking diffusion MRI data (preprocessed with deliverable 1) and performing data visualization 
+
 Data visualization: 
+1. Interactive correlation matrix with a drop-down for each subject
+2. Interactive connectome on a glass brain with a drop-down for each subject
 
 
 
