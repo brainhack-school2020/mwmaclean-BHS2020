@@ -11,7 +11,7 @@ Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de
 
 The overall goal of the current project is to use the tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
 
-![Logo Udem](logo_udem.png) ![Logo UNF](logo_unf.png)
+![Logo Udem](logo_UdeM.png) ![Logo UNF](logo_unf.png)
 
 ## Project definition 
 
