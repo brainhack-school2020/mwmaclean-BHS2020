@@ -75,12 +75,13 @@ Data visualization examples (1. Connectivity matrix; 2. Connectome (2D); 3. Conn
 
 ![](images/connectome_glassbrain.png)
 * The jupyter notebook version of all three figures is interactive with a drop-down for each subject.
+* The figures for each subject can also be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/images) 
 
 
 ### Progress overview
 
 This project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. 
-Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete. Feedback is welcome!
+Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. Feedback is welcome!
 
 ### Tools I learned during this project
 * Bash terminal
