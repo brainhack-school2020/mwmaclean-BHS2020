@@ -68,15 +68,15 @@ Tracking diffusion MRI data (preprocessed with deliverable 1) and performing dat
 Data visualization: 
 1. Connectivity matrix  (see image example below).
 ![](images/connectivity_matrix.png)
-The jupyter notebook version is interactive with a drop-down for each subject.
+
 
 2. Connectome (see image example below). 
 ![](images/connectome.png)
-The jupyter notebook version is interactive with a drop-down for each subject.
+
 
 3. Connectome projected on a 3D glass brain (see image example below). 
 ![](images/connectome_glassbrain.png)
-The jupyter notebook version is interactive with a drop-down for each subject.
+* The jupyter notebook version of all three figures is interactive with a drop-down for each subject.
 
 
 ### Progress overview
