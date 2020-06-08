@@ -66,15 +66,17 @@ Organization of MRI data into BIDS format as well as preprocessing the diffusion
 Tracking diffusion MRI data (preprocessed with deliverable 1) and performing data visualization 
 
 Data visualization: 
-1. Connectivity matrix  (see image example below). The one included in the jupyter notebook is interactive with a drop-down for each subject.
+1. Connectivity matrix  (see image example below).
 ![](images/connectivity_matrix.png)
+The jupyter notebook version is interactive with a drop-down for each subject.
 
-2. Connectome (see image example below). The one included in the jupyter notebook is interactive with a drop-down for each subject.
+2. Connectome (see image example below). 
 ![](images/connectome.png)
+The jupyter notebook version is interactive with a drop-down for each subject.
 
-3. Connectome projected on a 3D glass brain (see image example below). The one included in the jupyter notebook is interactive with a drop-down for each subject.
+3. Connectome projected on a 3D glass brain (see image example below). 
 ![](images/connectome_glassbrain.png)
-
+The jupyter notebook version is interactive with a drop-down for each subject.
 
 
 ### Progress overview
