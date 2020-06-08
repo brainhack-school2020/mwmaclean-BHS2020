@@ -75,7 +75,8 @@ Data visualization examples (1. Connectivity matrix; 2. Connectome (2D); 3. Conn
 
 ![](images/connectome_glassbrain.png)
 * The jupyter notebook version of all three figures is interactive with a drop-down for each subject.
-* The figures for each subject can also be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/images) 
+* The connectivity matrices (.mat files) used for the data visualization can be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization/connectivity_matrices)
+* The figures (saved as .png or .html) for each subject can also be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/images) 
 
 
 ### Progress overview
