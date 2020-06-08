@@ -70,7 +70,7 @@ Data visualization examples (1. Connectivity matrix; 2. Connectome (2D); 3. Conn
 ![](images/connectivity_matrixsub1.png)
 
 
-![](images/connectome.png)
+![](images/connectomesub1.png)
 
 
 ![](images/connectome_glassbrain.png)
