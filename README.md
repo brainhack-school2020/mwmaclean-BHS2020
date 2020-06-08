@@ -70,11 +70,11 @@ Data visualization examples:
 ![](images/connectivity_matrix.png)
 
 
-2. Connectome
+2.
 ![](images/connectome.png)
 
 
-3. Connectome projected on a 3D glass brain 
+3.
 ![](images/connectome_glassbrain.png)
 * The jupyter notebook version of all three figures is interactive with a drop-down for each subject.
 
