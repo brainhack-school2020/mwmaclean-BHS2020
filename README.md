@@ -13,7 +13,8 @@ Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de
 
 The overall goal of the current project is to use the tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
 
-![Logo Udem](images/logo_UdeM.png) ![Logo UNF](images/logo_unf.png)
+<img src="images/logo_UdeM.png" width="60%"> <img src="images/logo_unf.png" width="60%">
+
 
 ## Project definition 
 
@@ -42,7 +43,7 @@ MRI data was acquired with a high resolution 3 Tesla scanner (Siemens Trio syste
 
 Given the time course of the summer school, after the initial preprocessing of the data, I will first focus on working with the diffusion MRI data. I believe this data set will allow to first become familiarized with the new neuroimaging tools and create anaylses scripts. When I eventually acquire more data during the rest of my PhD, I will hopefully be able to modify the scripts and work on a larger data set.
 
-![](images/CVI.png)
+<img src="images/CVI.png" width="60%">
 
 The figure above is an example of an individual with cortical visual impairment to give you an idea of the type of data, where A) shows a T1-weighted anatomical scan with three different slice views showing the primary visual cortex removal in the left hemisphere and the destruction of the primary visual areas (V1) and B) the individual's visual field showing a symmetric loss across both eyes leading to a complete contralateral visual loss in the right visual field.
 
@@ -50,11 +51,12 @@ As the dataset is not yet open access, feel free to send me a message if you hav
 
 ## Deliverables
 For the project:
-
+At the end, we hope to have:
 * The current markdown document, completed and revised.
-* The diffusion MRI data organized and preprocessed.
-* Basic tracking performed on the preprocessed diffusion MRI data: an output of streamlines & connectivity matrices.
-* Jupyter notebook for data visualization of the tracking data.
+* Organization of MRI data into BIDS format
+* The diffusion MRI data preprocessed.
+* Basic tracking performed on the preprocessed diffusion MRI data with an output of streamlines & connectivity matrices.
+* Data visualization within a jupyter notebook using plotly, nilearn and matplotlib.
 * Requirements.txt for the Jupyter notebook
 
 For the course:
@@ -66,7 +68,7 @@ For the course:
 ### Method
 1. **Data Organization/Management.**
 * Convert dicoms to a BIDS friendly dataset. [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
-![](images/bidsexample.png)
+<img src="images/bidsexample.png" width="60%">
 
 2. **Preprocessing diffusion MRI data.**
 * Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
@@ -84,17 +86,10 @@ For the course:
 * Data visualization was performed within a Jupyter notebook using Plotly, Nilearn, Matplotlib, Seaborn and more (see visualization examples below).
 
 
-### Results
+### Data visualization
+1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain: 
 
-#### Project Deliverable 1:
-Organization of MRI data into BIDS format as well as preprocessing the diffusion data using a pipeline in a docker container.
-
-#### Project Deliverable 2:
-Tracking diffusion MRI data (organized and preprocessed with the project deliverable 1) and performing data visualization within a jupyter notebook using plotly, nilearn and matplotlib. 
-
-Data visualization examples (1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain): 
-
-![](images/connectivitymatrix.gif)
+<img src="images/connectivitymatrix.gif" width="120%">
 
 
 ![](images/connectomesub1.png)
