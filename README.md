@@ -13,7 +13,7 @@ Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de
 
 The overall goal of the current project is to use the tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
 
-<img src="images/logo_UdeM.png" width="60%"> <img src="images/logo_unf.png" width="60%">
+<img src="images/logo_UdeM.png" width="40%"> <img src="images/logo_unf.png" width="40%">
 
 
 ## Project definition 
@@ -68,7 +68,7 @@ For the course:
 ### Method
 1. **Data Organization/Management.**
 * Convert dicoms to a BIDS friendly dataset. [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
-<img src="images/bidsexample.png" width="60%">
+<img src="images/bidsexample.png" width="50%">
 
 2. **Preprocessing diffusion MRI data.**
 * Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
@@ -89,7 +89,7 @@ For the course:
 ### Data visualization
 1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain: 
 
-<img src="images/connectivitymatrix.gif" width="120%">
+<img src="images/connectivitymatrix.gif" width="100%">
 
 
 ![](images/connectomesub1.png)
