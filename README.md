@@ -63,23 +63,24 @@ For the course:
 * **Week 4 Deliverable:** [Presentation](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/presentation)
 
 ### Method
-1. **Data Organization/Management: Convert dicoms to a BIDS friendly dataset.**
-![](images/bidsexample.png)
+1. **Data Organization/Management.**
+* Convert dicoms to a BIDS friendly dataset.
 * [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
+![](images/bidsexample.png)
 
 2. **Preprocessing diffusion MRI data.**
-![](images/preproc_and_tracking_tools.png)
 * Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
 * [This python script](https://github.com/gkiar/stability/blob/master/code/preprocessing/preprocessing_pipeline.py) was used within the docker container.
 * Labels from Klein & Tourville (2012) were applied.
+![](images/preproc_and_tracking_tools.png)
 
 3. **Creating a seed mask.** 
 * [This python scricpt](https://github.com/gkiar/mask2boundary) was used to create a seed mask for each participant.
 
 4. **Tracking of diffusion weighted images (DWI)**
-![](images/preproc_and_tracking_tools.png)
 * [This docker image](https://hub.docker.com/r/gkiar/dipy_tracking) was used to perform tracking of the diffusion data.
 * [This python script](https://github.com/gkiar/stability/blob/master/code/tractography/dipy/dipy_tracking.py) was used within the container. This script is based off of [this tutorial](https://dipy.org/documentation/1.0.0./examples_built/tracking_introduction_eudx/) for DIPY tracking.
+![](images/preproc_and_tracking_tools.png)
 
 5. **Data visualization**
 * Data visualization was performed within a Jupyter notebook using Plotly, Nilearn, Matplotlib, Seaborn and more (see visualization examples below).
