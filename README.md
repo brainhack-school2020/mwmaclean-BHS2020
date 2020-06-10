@@ -67,7 +67,7 @@ Tracking diffusion MRI data (preprocessed with deliverable 1) and performing dat
 
 Data visualization examples (1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain): 
 
-![](images/connectivity_matrixsub1.png)
+![](images/connectivitymatrix.gif)
 
 
 ![](images/connectomesub1.png)
@@ -102,3 +102,6 @@ Thanks to the wonderful BrainHack School for this experience as well as all the 
 Special thanks to my instructors Noor, Benjamin and Greg! 
 
 ## References
+Greg Kiar <gkiar.github.io>. (2020, March 6). Dipy Tracking and Connectome Generation (Version v0.4.0). Zenodo. http://doi.org/10.5281/zenodo.3699595
+Greg Kiar, using FSL from FMRIB at Oxford. (2019, February 15). BIDS App - FSL Diffusion Preprocessing (Version 5.0.9). Zenodo. http://doi.org/10.5281/zenodo.2566455
+Klein, A. and J. Tourville (2012). 101 labeled brain images and a consistent human cortical labeling protocol. Frontiers in Neuroscience 6: 171.https://doi.org/10.3389/fnins.2012.00171
