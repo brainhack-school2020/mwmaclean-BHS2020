@@ -89,11 +89,11 @@ For the course:
 ### Data visualization
 1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain: 
 
-<img src="images/connectivitymatrix.gif" width="100%">
+<img src="images/connectivitymatrix.gif" width="60%">
 
 
-![](images/connectomesub1.png)
 
+<img src="images/connectomesub1.png" width="80%">
 
 ![](images/connectome_glassbrain.png)
 * The jupyter notebook version of all three figures is interactive with a drop-down for each subject.
