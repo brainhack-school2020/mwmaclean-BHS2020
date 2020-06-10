@@ -5,6 +5,8 @@ Team contributors: Michèle MacLean & Brainhack School members
 
 ![BrainHack School](images/bhs2020.png)
 
+[![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
+
 ## Summary 
 
 Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
@@ -49,21 +51,47 @@ As the dataset is not yet open access, feel free to send me a message if you hav
 ## Deliverables
 At the end of this project I hope to have:
 * The current markdown document, completed and revised.
-* Jupyter notebook (for data visualization)
+* The diffusion MRI data organized and preprocessed.
+* Basic tracking performed on the preprocessed diffusion MRI data: an output of streamlines & connectivity matrices.
+* Jupyter notebook for data visualization of the tracking data.
 * Requirements.txt for the Jupyter notebook
 
 For the course:
 * **Week 1 Deliverable:**  [Assessement](https://github.com/mwmaclean/MacLean-M-QLSC612)
+* **Week 2 Deliverable:** [README file](https://github.com/brainhack-school2020/mwmaclean-BHS2020/blob/master/README.md)
 * **Week 3 Deliverable:** [Data visualization](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization)
 * **Week 4 Deliverable:** [Presentation](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/presentation)
+
+### Method
+1. **Data Organization/Management: Convert dicoms to a BIDS friendly dataset.**
+![](images/bidsexample.png)
+* [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
+
+2. **Preprocessing diffusion MRI data.**
+![](preproc_and_tracking_tools.png)
+* Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
+* [This python script](https://github.com/gkiar/stability/blob/master/code/preprocessing/preprocessing_pipeline.py) was used within the docker container.
+* Labels from Klein & Tourville (2012) were applied.
+
+3. **Creating a seed mask.** 
+* [This python scricpt](https://github.com/gkiar/mask2boundary) was used to create a seed mask for each participant.
+
+4. **Tracking of diffusion weighted images (DWI)**
+![](preproc_and_tracking_tools.png)
+* [This docker image](https://hub.docker.com/r/gkiar/dipy_tracking) was used to perform tracking of the diffusion data.
+* [This python script](https://github.com/gkiar/stability/blob/master/code/tractography/dipy/dipy_tracking.py) was used within the container. This script is based off of [this tutorial](https://dipy.org/documentation/1.0.0./examples_built/tracking_introduction_eudx/) for DIPY tracking.
+
+5. **Data visualization**
+* Data visualization was performed within a Jupyter notebook using Plotly, Nilearn, Matplotlib, Seaborn and more (see visualization examples below).
+
 
 ### Results
 
 #### Project Deliverable 1:
-Organization of MRI data into BIDS format as well as preprocessing the diffusion data with a pipeline in docker
+Organization of MRI data into BIDS format as well as preprocessing the diffusion data using a pipeline in a docker container.
 
 #### Project Deliverable 2:
-Tracking diffusion MRI data (preprocessed with deliverable 1) and performing data visualization 
+Tracking diffusion MRI data (organized and preprocessed with the project deliverable 1) and performing data visualization within a jupyter notebook using plotly, nilearn and matplotlib. 
 
 Data visualization examples (1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain): 
 
@@ -88,11 +116,10 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * Bash terminal
 * GitHub
 * Visual Studio Code
-* How to implement BIDS using [this tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/)
+* How to implement BIDS 
 * Python scripts 
-* Docker container to run a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
-* [This python scricpt](https://github.com/gkiar/mask2boundary) for creating a seed mask
-* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI) using [this docker image](https://hub.docker.com/r/gkiar/dipy_tracking)
+* Docker container 
+* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
 * Jupyter Notebook 
 * Nilearn, plotly & matplotlib for data visualization
 * & More!
@@ -102,6 +129,6 @@ Thanks to the wonderful BrainHack School for this experience as well as all the 
 Special thanks to my instructors Noor, Benjamin and Greg! 
 
 ## References
-Greg Kiar <gkiar.github.io>. (2020, March 6). Dipy Tracking and Connectome Generation (Version v0.4.0). Zenodo. http://doi.org/10.5281/zenodo.3699595
-Greg Kiar, using FSL from FMRIB at Oxford. (2019, February 15). BIDS App - FSL Diffusion Preprocessing (Version 5.0.9). Zenodo. http://doi.org/10.5281/zenodo.2566455
-Klein, A. and J. Tourville (2012). 101 labeled brain images and a consistent human cortical labeling protocol. Frontiers in Neuroscience 6: 171.https://doi.org/10.3389/fnins.2012.00171
+* Kiar, G. <gkiar.github.io>. (2020). Dipy Tracking and Connectome Generation (Version v0.4.0). Zenodo. http://doi.org/10.5281/zenodo.3699595
+* Kiar, G. (2019). Using FSL from FMRIB at Oxford- BIDS App - FSL Diffusion Preprocessing (Version 5.0.9). Zenodo. http://doi.org/10.5281/zenodo.2566455
+* Klein, A. and J. Tourville (2012). 101 labeled brain images and a consistent human cortical labeling protocol. Frontiers in Neuroscience 6: 171.https://doi.org/10.3389/fnins.2012.00171
