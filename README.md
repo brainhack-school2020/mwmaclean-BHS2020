@@ -68,7 +68,7 @@ For the course:
 ### Method
 1. **Data Organization/Management.**
 * Convert dicoms to a BIDS friendly dataset. [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
-<img src="images/bidsexample.png" width="50%">
+<img src="images/bidsexample.png" width="40%">
 
 2. **Preprocessing diffusion MRI data.**
 * Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
@@ -95,7 +95,8 @@ For the course:
 
 <img src="images/connectomesub1.png" width="80%">
 
-![](images/connectome_glassbrain.png)
+<img src="images/connectome_glassbrain.png" width="80%">
+
 * The jupyter notebook version of all three figures is interactive with a drop-down for each subject.
 * The connectivity matrices (.mat files) used for the data visualization can be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization/connectivity_matrices)
 * The figures (saved as .png or .html) for each subject can also be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/images) 
