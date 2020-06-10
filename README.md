@@ -11,25 +11,28 @@ Team contributors: Michèle MacLean & Brainhack School members
 
 Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
 
-The overall goal of the current project is to use the tools to organize, analyze and visualize MRI data learned during the BrainHack Summer School.  
+The overall goal of the current project was to use the new tools learned during the BrainHack Summer School to organize, preprocess, analyze and visualize MRI data acquired at l'Unité de neuroimagerie fonctionnelle during my PhD.  
 
-<img src="images/logo_UdeM.png" width="40%"> <img src="images/logo_unf.png" width="40%">
+<img src="images/logo_UdeM.png" width="30%"> <img src="images/logo_unf.png" width="40%">
 
 
-## Project definition 
+# Project definition 
 
-### Background
+## Background
 
-This project will explore the steps for analyzing diffusion magnetic resonance imaging data starting from the raw data all the way to data visualization. The long term goal is to investigate the consequences of a primary visual cortex lesion on cerebral reorganization using both diffusion MRI and/or resting state functional connectivity. For this, I will use previously acquired data from l'Unité de Neuroimagerie Fonctionnelle in Montréal. 
+This project explored the steps for analyzing diffusion magnetic resonance imaging data starting from the raw data all the way to data visualization. For this, I used previously acquired data from l'Unité de Neuroimagerie Fonctionnelle in Montréal. 
 
-The following objectives represent the next planned steps: 
-The first steps will be to try to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I plan to explore 3) analyzing diffusion MRI (i.e. dwi tracking) and 4) perform data visualization.
+**Project objectives during BHS 2020:** 
+The first steps were to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I  explored 3) analyzing diffusion MRI (i.e. dwi tracking) and 4) performed data visualization.
 
-### Tools 
+**Overarching goal:**
+The long term goal is to investigate the consequences of a primary visual cortex lesion on structural and functional connectivity using both diffusion MRI and resting state functional connectivity.
+
+## Tools 
 This project will rely on the following:
 * GitHub for creating a repository & assembling all the resources.
 * Bash terminal
-* Visual studio code
+* Visual studio code as a code editor
 * BIDS as a standard to organize the neuroimaging data
 * Python 
 * Docker container to run preprocessing pipeline and basic tracking
@@ -38,10 +41,10 @@ This project will rely on the following:
 * Data visualization tools (e.g. Nilearn, Plotly, Numpy, Matplotlib, Seaborn).
 
 
-### Data 
+## Data 
 MRI data was acquired with a high resolution 3 Tesla scanner (Siemens Trio system) and consists of a preliminary data set of 5 subjects, including 1 individual with cortical visual impairment with blindsight and 4 neurotypical controls. For each participant, raw structural MRI, resting state functional connectivity, fMRI and diffusion MRI data is avaiblable. 
 
-Given the time course of the summer school, after the initial preprocessing of the data, I will first focus on working with the diffusion MRI data. I believe this data set will allow to first become familiarized with the new neuroimaging tools and create anaylses scripts. When I eventually acquire more data during the rest of my PhD, I will hopefully be able to modify the scripts and work on a larger data set.
+Given the time course of the summer school, after the initial preprocessing of the data, I will first focus on working with the diffusion MRI data. I believe this data set will allow to first become familiarized with the new neuroimaging tools learned during the BrainHack summer school. When I will acquire a larger data set, during the rest of my PhD, I plan to incorporate it to this project. 
 
 <img src="images/CVI.png" width="60%">
 
@@ -51,7 +54,6 @@ As the dataset is not yet open access, feel free to send me a message if you hav
 
 ## Deliverables
 For the project:
-At the end, we hope to have:
 * The current markdown document, completed and revised.
 * Organization of MRI data into BIDS format
 * The diffusion MRI data preprocessed.
@@ -65,7 +67,7 @@ For the course:
 * **Week 3 Deliverable:** [Data visualization](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization)
 * **Week 4 Deliverable:** [Presentation](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/presentation)
 
-### Method
+## Method
 1. **Data Organization/Management.**
 * Convert dicoms to a BIDS friendly dataset. [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
 <img src="images/bidsexample.png" width="40%">
@@ -86,12 +88,12 @@ For the course:
 * Data visualization was performed within a Jupyter notebook using Plotly, Nilearn, Matplotlib, Seaborn and more (see visualization examples below).
 
 
+## Progress & Results
+
 ### Data visualization
 1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain: 
 
 <img src="images/connectivitymatrix.gif" width="60%">
-
-
 
 <img src="images/connectomesub1.png" width="80%">
 
@@ -101,13 +103,11 @@ For the course:
 * The connectivity matrices (.mat files) used for the data visualization can be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization/connectivity_matrices)
 * The figures (saved as .png or .html) for each subject can also be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/images) 
 
-
 ### Progress overview
-
 This project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. 
-Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. Feedback is welcome!
+Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. This will be an ongoing project that I will continue to work on after BrainHack Summer School. Feedback is welcome!
 
-### Tools I learned during this project
+#### Tools I learned during this project
 * Bash terminal
 * GitHub
 * Visual Studio Code
@@ -118,10 +118,24 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * Jupyter Notebook 
 * Nilearn, plotly & matplotlib for data visualization
 ![](images/preproc_and_tracking_tools.png)
- 
-## Conclusion and acknowledgement
-Thanks to the wonderful BrainHack School for this experience as well as all the ressources provided!
-Special thanks to my instructors Noor, Benjamin and Greg! 
+
+#### What I learned during the summer school
+Coming soon!
+
+## Next steps
+Here are a few of my next planned steps:
+* Increase the number of subjects
+* Account for brain injuries
+* more coming soon!
+
+## Conclusion 
+Coming soon!
+
+## Acknowledgements
+Thanks to the wonderful BrainHack Summer School 2020 for this experience as well as all the ressources provided!
+Special thanks to my instructors Noor, Benjamin and Greg who invested a lot of time to help with this project! 
+
+
 
 ## References
 * Kiar, G. <gkiar.github.io>. (2020). Dipy Tracking and Connectome Generation (Version v0.4.0). Zenodo. http://doi.org/10.5281/zenodo.3699595
