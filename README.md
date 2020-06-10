@@ -3,7 +3,7 @@ This project is part of the Brainhack School 2020
 
 Team contributors: Michèle MacLean & Brainhack School members
 
-![BrainHack School](images/bhs2020.png)
+<img src="images/bhs2020.png" width="70%">
 
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
@@ -49,7 +49,8 @@ The figure above is an example of an individual with cortical visual impairment 
 As the dataset is not yet open access, feel free to send me a message if you have any questions and I'll be happy to answer!
 
 ## Deliverables
-At the end of this project I hope to have:
+For the project:
+
 * The current markdown document, completed and revised.
 * The diffusion MRI data organized and preprocessed.
 * Basic tracking performed on the preprocessed diffusion MRI data: an output of streamlines & connectivity matrices.
@@ -64,8 +65,7 @@ For the course:
 
 ### Method
 1. **Data Organization/Management.**
-* Convert dicoms to a BIDS friendly dataset.
-* [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
+* Convert dicoms to a BIDS friendly dataset. [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
 ![](images/bidsexample.png)
 
 2. **Preprocessing diffusion MRI data.**
@@ -121,7 +121,6 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
 * Jupyter Notebook 
 * Nilearn, plotly & matplotlib for data visualization
-* & More!
 ![](images/preproc_and_tracking_tools.png)
  
 ## Conclusion and acknowledgement
