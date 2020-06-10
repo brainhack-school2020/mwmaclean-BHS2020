@@ -91,7 +91,10 @@ For the course:
 ## Progress & Results
 
 ### Data visualization
-1. Connectivity matrix; 2. Connectome (2D); 3. Connectome projected on a 3D glass brain: 
+1. Connectivity matrix;
+2. Connectome (2D); 
+3. Connectome projected on a 3D glass brain: 
+
 
 <img src="images/connectivitymatrix.gif" width="60%">
 
@@ -117,19 +120,20 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
 * Jupyter Notebook 
 * Nilearn, plotly & matplotlib for data visualization
-![](images/preproc_and_tracking_tools.png)
+![](images/tools.png)
 
 #### What I learned during the summer school
 Coming soon!
 
-## Next steps
+
+## Conclusion 
+Coming soon!
+
+#### Next steps
 Here are a few of my next planned steps:
 * Increase the number of subjects
 * Account for brain injuries
 * more coming soon!
-
-## Conclusion 
-Coming soon!
 
 ## Acknowledgements
 Thanks to the wonderful BrainHack Summer School 2020 for this experience as well as all the ressources provided!
