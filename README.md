@@ -3,7 +3,7 @@ This project is part of the Brainhack School 2020
 
 Team contributors: Michèle MacLean & Brainhack School members
 
-![BrainHack School](images/bhs2020.png){ width=50% }
+![BrainHack School](images/bhs2020.png)
 
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
