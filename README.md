@@ -3,7 +3,7 @@ This project is part of the Brainhack School 2020
 
 Team contributors: Michèle MacLean & Brainhack School members
 
-![BrainHack School](images/bhs2020.png)
+![BrainHack School](images/bhs2020.png){ width=50% }
 
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
@@ -72,7 +72,6 @@ For the course:
 * Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
 * [This python script](https://github.com/gkiar/stability/blob/master/code/preprocessing/preprocessing_pipeline.py) was used within the docker container.
 * Labels from Klein & Tourville (2012) were applied.
-![](images/preproc_and_tracking_tools.png)
 
 3. **Creating a seed mask.** 
 * [This python scricpt](https://github.com/gkiar/mask2boundary) was used to create a seed mask for each participant.
@@ -80,7 +79,6 @@ For the course:
 4. **Tracking of diffusion weighted images (DWI)**
 * [This docker image](https://hub.docker.com/r/gkiar/dipy_tracking) was used to perform tracking of the diffusion data.
 * [This python script](https://github.com/gkiar/stability/blob/master/code/tractography/dipy/dipy_tracking.py) was used within the container. This script is based off of [this tutorial](https://dipy.org/documentation/1.0.0./examples_built/tracking_introduction_eudx/) for DIPY tracking.
-![](images/preproc_and_tracking_tools.png)
 
 5. **Data visualization**
 * Data visualization was performed within a Jupyter notebook using Plotly, Nilearn, Matplotlib, Seaborn and more (see visualization examples below).
@@ -124,6 +122,7 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * Jupyter Notebook 
 * Nilearn, plotly & matplotlib for data visualization
 * & More!
+![](images/preproc_and_tracking_tools.png)
  
 ## Conclusion and acknowledgement
 Thanks to the wonderful BrainHack School for this experience as well as all the ressources provided!
