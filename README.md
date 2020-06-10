@@ -68,7 +68,7 @@ For the course:
 * [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
 
 2. **Preprocessing diffusion MRI data.**
-![](preproc_and_tracking_tools.png)
+![](images/preproc_and_tracking_tools.png)
 * Running a preprocessing pipeline using [this docker image](https://hub.docker.com/r/gkiar/dwipreproc_fsl-5.0.11_minified)
 * [This python script](https://github.com/gkiar/stability/blob/master/code/preprocessing/preprocessing_pipeline.py) was used within the docker container.
 * Labels from Klein & Tourville (2012) were applied.
@@ -77,7 +77,7 @@ For the course:
 * [This python scricpt](https://github.com/gkiar/mask2boundary) was used to create a seed mask for each participant.
 
 4. **Tracking of diffusion weighted images (DWI)**
-![](preproc_and_tracking_tools.png)
+![](images/preproc_and_tracking_tools.png)
 * [This docker image](https://hub.docker.com/r/gkiar/dipy_tracking) was used to perform tracking of the diffusion data.
 * [This python script](https://github.com/gkiar/stability/blob/master/code/tractography/dipy/dipy_tracking.py) was used within the container. This script is based off of [this tutorial](https://dipy.org/documentation/1.0.0./examples_built/tracking_introduction_eudx/) for DIPY tracking.
 
