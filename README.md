@@ -1,7 +1,8 @@
 # mwmaclean-BHS2020
-This project is part of the Brainhack School 2020
+# Learning to organize, preprocess, analyze and visualize dMRI data with new tools! 
+## This project is part of the Brainhack School 2020
 
-Team contributors: Michèle MacLean & Brainhack School members
+### Contributors: Michèle MacLean & Brainhack School members
 
 <img src="images/bhs2020.png" width="70%">
 
@@ -67,7 +68,7 @@ For the course:
 * **Week 3 Deliverable:** [Data visualization](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization)
 * **Week 4 Deliverable:** [Presentation](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/presentation)
 
-## Method
+## Methods
 1. **Data Organization/Management.**
 * Convert dicoms to a BIDS friendly dataset. [This tutorial](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/) served as a guideline.
 <img src="images/bidsexample.png" width="40%">
@@ -91,9 +92,9 @@ For the course:
 ## Progress & Results
 
 ### Data visualization
-1. Connectivity matrix;
-2. Connectome (2D); 
-3. Connectome projected on a 3D glass brain: 
+1. Connectivity matrix
+2. Connectome (2D) 
+3. Connectome projected on a 3D glass brain
 
 
 <img src="images/connectivitymatrix.gif" width="60%">
@@ -102,13 +103,13 @@ For the course:
 
 <img src="images/connectome_glassbrain.png" width="80%">
 
-* The jupyter notebook version of all three figures is interactive with a drop-down for each subject.
+* The [jupyter notebook](https://github.com/brainhack-school2020/mwmaclean-BHS2020/blob/master/data_visualization/dMRI_data_visualization.ipynb) version of all three figures is interactive with a drop-down for each subject.
 * The connectivity matrices (.mat files) used for the data visualization can be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization/connectivity_matrices)
 * The figures (saved as .png or .html) for each subject can also be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/images) 
 
 ### Progress overview
-This project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack School. 
-Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. This will be an ongoing project that I will continue to work on after BrainHack Summer School. Feedback is welcome!
+This project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack Summer School 2020. 
+Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. See the methods section for a detailed description. This will be an ongoing project that I will continue to work on after BrainHack Summer School. Feedback is welcome!
 
 #### Tools I learned during this project
 * Bash terminal
@@ -122,24 +123,16 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * Nilearn, plotly & matplotlib for data visualization
 ![](images/tools.png)
 
-#### What I learned during the summer school
-Coming soon!
-
 
 ## Conclusion 
-Coming soon!
+The BrainHack Summer School 2020 provided a theoretical framework as well as an extensive set of practical neural data analysis and visualization tools that were mainly all new to me. For the current project, my goal was to maximize using these new tools, to learn and apply the open science protocols in order to analyze data within my own doctoral project. Within the time frame of the summer school, I set out to perform all the steps starting from raw diffusion MRI data, which I previously acquired at l'Unité de neuroimagerie fonctionnelle, leading to data visualization. In particular, this dataset was organized into a BIDS friendly format, preprocessed with a python script within a docker container, basic tracking was also performed using another python script within a second container and finally data visualization was done using multiple librairies within a jupyter notebook. As a neuroscientist with a limited previous background in programming, I believe I sensibly improved my skills towards performing independently the whole process to analyze neuroimaging data. As I plan to continue working on this project with the new tools learned, my next immediate step will be to increase the number of subjects. Also, my next challenge will be to specifically account for brain injuries leading to cortical visual impairment during the analyses as this requires additional algorithmic tools and modifications to the preprocessing and analysis pipelines.
 
-#### Next steps
-Here are a few of my next planned steps:
-* Increase the number of subjects
-* Account for brain injuries
-* more coming soon!
 
 ## Acknowledgements
-Thanks to the wonderful BrainHack Summer School 2020 for this experience as well as all the ressources provided!
-Special thanks to my instructors Noor, Benjamin and Greg who invested a lot of time to help with this project! 
+Thanks to the wonderful BrainHack Summer School 2020 for this experience as well as all the excellent ressources provided!
+Special thanks to my instructors Noor, Benjamin and Greg who invested a lot of time to help and contribute to this project! 
 
-
+Be sure to check out the other cool projects from the BrainHack Summer School 2020 [here](https://school.brainhackmtl.org/project/)!
 
 ## References
 * Kiar, G. <gkiar.github.io>. (2020). Dipy Tracking and Connectome Generation (Version v0.4.0). Zenodo. http://doi.org/10.5281/zenodo.3699595
