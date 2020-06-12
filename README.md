@@ -1,4 +1,3 @@
-# mwmaclean-BHS2020
 # Learning to organize, preprocess, analyze and visualize dMRI data with new tools. 
 ## This project is part of the Brainhack Summer School 2020
 
@@ -10,7 +9,7 @@
 
 ## Summary 
 
-Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
+Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non-consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
 
 The overall goal of the current project was to use the new tools learned during the BrainHack Summer School to organize, preprocess, analyze and visualize diffusion MRI data acquired at l'Unité de neuroimagerie fonctionnelle during my PhD.  
 
@@ -31,15 +30,15 @@ The long term goal is to investigate the consequences of a primary visual cortex
 
 ## Tools 
 This project will rely on the following:
-* GitHub for creating a repository & assembling all the resources.
-* Bash terminal
-* Visual studio code as a code editor
-* BIDS as a standard to organize the neuroimaging data
-* Python 
-* Docker container to run preprocessing pipeline and basic tracking
-* DIPY for preprocessing and basic tracking of diffusion MRI
-* Jupyter Notebook and for data visualization
-* Data visualization tools (e.g. Nilearn, Plotly, Numpy, Matplotlib, Seaborn).
+* **GitHub** for creating a repository & assembling all the resources.
+* **Bash terminal**
+* **Visual studio code** as a code editor
+* **BIDS** as a standard to organize the neuroimaging data
+* **Python** 
+* **Docker container** to run preprocessing pipeline and basic tracking
+* **DIPY** for preprocessing and basic tracking of diffusion MRI
+* **Jupyter Notebook** and for data visualization
+* **Interactive data visualization tools**: Nilearn, Plotly, Numpy, Matplotlib, Seaborn, Widgets, etc.
 
 
 ## Data 
@@ -86,14 +85,14 @@ For the course:
 * [This python script](https://github.com/gkiar/stability/blob/master/code/tractography/dipy/dipy_tracking.py) was used within the container. This script is based off of [this tutorial](https://dipy.org/documentation/1.0.0./examples_built/tracking_introduction_eudx/) for DIPY tracking.
 
 5. **Data visualization**
-* Data visualization was performed within a Jupyter notebook using Plotly, Nilearn, Matplotlib, Seaborn and more (see visualization examples below).
+* Data visualization was performed within a Jupyter notebook using Plotly, Nilearn, Matplotlib, Seaborn and more (see visualization examples with gif below).
 
 
 ## Progress & Results
 
 ### Data visualization
-1. Connectivity matrix
-2. Connectome (2D) 
+1. Connectivity matrix 
+2. Connectome projected on 3 views of a 2D glass brain
 3. Connectome projected on a 3D glass brain
 
 
@@ -103,7 +102,7 @@ For the course:
 
 <img src="images/connectome_glassbrain.gif" width="80%">
 
-* The [jupyter notebook](https://github.com/brainhack-school2020/mwmaclean-BHS2020/blob/master/data_visualization/dMRI_data_visualization.ipynb) version of all three figures is interactive with a drop-down for each subject.
+* The [jupyter notebook](https://github.com/brainhack-school2020/mwmaclean-BHS2020/blob/master/data_visualization/dMRI_data_visualization.ipynb) version of all three figures is interactive with a drop-down for each subject using widgets.
 * The connectivity matrices (.mat files) used for the data visualization can be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization/connectivity_matrices)
 * The figures (saved as .png or .html) for each subject can also be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/images) 
 
@@ -112,16 +111,16 @@ This project was initiated by Michèle MacLean May 19th 2020 as part of the Brai
 Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. See the methods section for a detailed description. This will be an ongoing project that I will continue to work on after BrainHack Summer School. Feedback is welcome!
 
 #### Tools I learned during this project
-* Bash terminal
-* GitHub
-* Markdown
-* Visual Studio Code
-* How to implement BIDS 
-* Python scripts 
-* Docker container 
-* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
-* Jupyter Notebook 
-* Interactive figures in Jupyter Notebook using data visualization librairies: Nilearn, plotly & matplotlib, etc.
+* **Bash terminal**
+* **GitHub**
+* **Markdown**
+* **Visual Studio Code**
+* How to implement **BIDS** 
+* **Python** scripts 
+* **Docker container** 
+* **DIPY** for preprocessing and basic tracking of diffusion weighted images (DWI)
+* **Jupyter Notebook** 
+* Interactive figures in Jupyter Notebook using **data visualization librairies**: Nilearn, plotly & matplotlib, etc.
 ![](images/tools.png)
 
 
@@ -131,7 +130,7 @@ The BrainHack Summer School 2020 provided a theoretical framework as well as an 
 
 ## Acknowledgements
 Thanks to the wonderful BrainHack Summer School 2020 for this experience as well as all the excellent ressources provided!
-Special thanks to my instructors Noor, Benjamin and Greg who invested a lot of time to help and contribute to this project! 
+I would like to thank my instructors Noor and Benjamin for their advice and for providing specific ressources for this project. Special thanks to my instructor Greg who originally developed the python scripts and docker images I used and invested a lot of time to help and contribute to this project. I would also like to thank my new friend and coding partner Daniel and my friend Simon who was a great study buddy throughout the summer school!
 
 Be sure to check out the other cool projects from the BrainHack Summer School 2020 [here](https://school.brainhackmtl.org/project/)!
 
