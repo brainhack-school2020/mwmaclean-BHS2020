@@ -97,7 +97,7 @@ For the course:
 3. Connectome projected on a 3D glass brain
 
 
-<img src="images/connectivitymatrix.gif" width="60%">
+<img src="images/connectivity_matrix.gif" width="60%">
 
 <img src="images/connectomesub1.png" width="80%">
 
