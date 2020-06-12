@@ -112,7 +112,7 @@ For the course:
 This project was initiated by Michèle MacLean May 19th 2020 as part of the BrainHack Summer School 2020. 
 Organization of MRI data into BIDS format, preprocessing and basic tracking of the data is complete as well as data visualization for the deliverable for week 3. See the methods section for a detailed description. This will be an ongoing project that I will continue to work on after BrainHack Summer School. Feedback is welcome!
 
-#### Tools I learned during this project
+#### Tools and skills I learned during this project
 * **Bash terminal**
 * **GitHub**
 * **Markdown**
@@ -122,10 +122,11 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * **Docker container** 
 * **DIPY** for preprocessing and basic tracking of diffusion MRI
 * **Jupyter Notebook** 
-* Interactive figures in Jupyter Notebook using **data visualization libraries**: Nilearn, plotly & matplotlib, etc to map connectomes.
+* Interactive figures in Jupyter Notebook using **data visualization libraries**: Nilearn, plotly & matplotlib, etc.
 * **Preprocessing diffusion MRI data**
 * **Tracking diffusion MRI data**
 * **Mapping connectomes**
+
 ![](images/tools.png)
 
 
