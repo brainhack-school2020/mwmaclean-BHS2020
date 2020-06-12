@@ -1,6 +1,6 @@
 # Diffusion MRI- From raw data to mapping brain connectomes.
 ## Organizing, preprocessing, analyzing and visualizing diffusion MRI data. 
-## This project is part of the Brainhack Summer School 2020.
+### This project is part of the Brainhack Summer School 2020.
 
 ### Contributors: Michèle W. MacLean & Brainhack School Members
 
@@ -12,7 +12,8 @@
 
 Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non-consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
 
-The overall goal of the current project was to use the new tools learned during the BrainHack Summer School to organize, preprocess, analyze and visualize diffusion MRI data acquired at l'Unité de neuroimagerie fonctionnelle during my PhD.  
+The overall goal of the current project was to combine, use and present the new tools learned during the BrainHack Summer School to organize, preprocess, analyze and visualize diffusion MRI data acquired at l'Unité de neuroimagerie fonctionnelle during my PhD.  
+
 
 <img src="images/logo_UdeM.png" width="30%"> <img src="images/logo_unf.png" width="40%">
 
@@ -119,9 +120,12 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 * How to implement **BIDS** 
 * **Python** scripts 
 * **Docker container** 
-* **DIPY** for preprocessing and basic tracking of diffusion weighted images (DWI)
+* **DIPY** for preprocessing and basic tracking of diffusion MRI
 * **Jupyter Notebook** 
-* Interactive figures in Jupyter Notebook using **data visualization librairies**: Nilearn, plotly & matplotlib, etc.
+* Interactive figures in Jupyter Notebook using **data visualization libraries**: Nilearn, plotly & matplotlib, etc to map connectomes.
+* **Preprocessing diffusion MRI data**
+* **Tracking diffusion MRI data**
+* **Mapping connectomes**
 ![](images/tools.png)
 
 
