@@ -1,8 +1,8 @@
 # mwmaclean-BHS2020
-# Learning to organize, preprocess, analyze and visualize dMRI data with new tools! 
-## This project is part of the Brainhack School 2020
+# Learning to organize, preprocess, analyze and visualize dMRI data with new tools. 
+## This project is part of the Brainhack Summer School 2020
 
-### Contributors: Michèle MacLean & Brainhack School members
+### Contributors: Michèle W. MacLean & Brainhack School members
 
 <img src="images/bhs2020.png" width="70%">
 
@@ -12,7 +12,7 @@
 
 Hello! I'm currently a PhD student in Cognitive Neuroscience at l'Université de Montréal. My main focus is to study cortical visual impairment using MRI techniques. Damage to the primary visual areas can result in clinical blindness and prompt a cascade of dynamical structural and functional alterations of the neural networks at both the cortical and subcortical level. Following this damage, individuals can sometimes preserve the ability to non consciously process visual information in their blind field, a striking phenomenon know as blindsight. My fascination resides in understanding how the brain can process visual information without conscious awareness.
 
-The overall goal of the current project was to use the new tools learned during the BrainHack Summer School to organize, preprocess, analyze and visualize MRI data acquired at l'Unité de neuroimagerie fonctionnelle during my PhD.  
+The overall goal of the current project was to use the new tools learned during the BrainHack Summer School to organize, preprocess, analyze and visualize diffusion MRI data acquired at l'Unité de neuroimagerie fonctionnelle during my PhD.  
 
 <img src="images/logo_UdeM.png" width="30%"> <img src="images/logo_unf.png" width="40%">
 
@@ -24,7 +24,7 @@ The overall goal of the current project was to use the new tools learned during 
 This project explored the steps for analyzing diffusion magnetic resonance imaging data starting from the raw data all the way to data visualization. For this, I used previously acquired data from l'Unité de Neuroimagerie Fonctionnelle in Montréal. 
 
 **Project objectives during BHS 2020:** 
-The first steps were to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I  explored 3) analyzing diffusion MRI (i.e. dwi tracking) and 4) performed data visualization.
+The first steps were to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I  explored 3) analyzing diffusion MRI (i.e. tracking) and 4) performed data visualization.
 
 **Overarching goal:**
 The long term goal is to investigate the consequences of a primary visual cortex lesion on structural and functional connectivity using both diffusion MRI and resting state functional connectivity.
@@ -37,15 +37,15 @@ This project will rely on the following:
 * BIDS as a standard to organize the neuroimaging data
 * Python 
 * Docker container to run preprocessing pipeline and basic tracking
-* DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
-* Jupyter Notebook to document the process and for data visualization
+* DIPY for preprocessing and basic tracking of diffusion MRI
+* Jupyter Notebook and for data visualization
 * Data visualization tools (e.g. Nilearn, Plotly, Numpy, Matplotlib, Seaborn).
 
 
 ## Data 
 MRI data was acquired with a high resolution 3 Tesla scanner (Siemens Trio system) and consists of a preliminary data set of 5 subjects, including 1 individual with cortical visual impairment with blindsight and 4 neurotypical controls. For each participant, raw structural MRI, resting state functional connectivity, fMRI and diffusion MRI data is avaiblable. 
 
-Given the time course of the summer school, after the initial preprocessing of the data, I will first focus on working with the diffusion MRI data. I believe this data set will allow to first become familiarized with the new neuroimaging tools learned during the BrainHack summer school. When I will acquire a larger data set, during the rest of my PhD, I plan to incorporate it to this project. 
+Given the time course of the summer school, after the initial preprocessing of the data, I focused on working with the diffusion MRI data. This data set will allow to first become familiarized with the new neuroimaging tools learned during the BrainHack summer school. When I will acquire a larger data set, during the rest of my PhD, I plan to incorporate it to this project. 
 
 <img src="images/CVI.png" width="60%">
 
@@ -135,6 +135,12 @@ Special thanks to my instructors Noor, Benjamin and Greg who invested a lot of t
 Be sure to check out the other cool projects from the BrainHack Summer School 2020 [here](https://school.brainhackmtl.org/project/)!
 
 ## References
-* Kiar, G. <gkiar.github.io>. (2020). Dipy Tracking and Connectome Generation (Version v0.4.0). Zenodo. http://doi.org/10.5281/zenodo.3699595
-* Kiar, G. (2019). Using FSL from FMRIB at Oxford- BIDS App - FSL Diffusion Preprocessing (Version 5.0.9). Zenodo. http://doi.org/10.5281/zenodo.2566455
-* Klein, A. and J. Tourville (2012). 101 labeled brain images and a consistent human cortical labeling protocol. Frontiers in Neuroscience 6: 171.https://doi.org/10.3389/fnins.2012.00171
+1. Abraham, A., Pedregosa1, F., Eickenberg1, M.,  Gervais, P., Mueller, A., Kossaifi, J., Gramfort, A., Thirion, B., Varoquaux, G. (2014). Machine learning for neuroimaging with scikit-learn. Frontiers in Neuroinformatics 8: 14. https://doi.org/10.3389/fninf.2014.00014 (for using nilearn)
+2. Garyfallidis E, Brett M, Amirbekian B, Rokem A, van der Walt S, Descoteaux M, Nimmo-Smith I and Dipy Contributors (2014). DIPY, a library for the analysis of diffusion MRI data. Frontiers in Neuroinformatics, vol.8, no.8.
+3. Gorgolewski, K.J., Auer, T., Calhoun, V.D., Craddock, R.C., Das, S., Duff, E.P., Flandin, G., Ghosh, S.S., Glatard, T., Halchenko, Y.O., Handwerker, D.A., Hanke, M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B.N., Nichols, T.E., Pellman, J., Poline, J.-B., Rokem, A., Schaefer, G., Sochat, V., Triplett, W., Turner, J.A., Varoquaux, G., Poldrack, R.A., 2016. The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. Sci Data 3, 160044.
+4. Kiar, G. <gkiar.github.io>. (2020). Dipy Tracking and Connectome Generation (Version v0.4.0). Zenodo. http://doi.org/10.5281/zenodo.3699595
+5. Kiar, G. (2020). dipy. Retrieved from https://github.com/gkiar/stability/tree/master/code/tractography/dipy
+Kiar, G. (2019). Using FSL from FMRIB at Oxford- BIDS App - FSL Diffusion Preprocessing (Version 5.0.9). Zenodo. http://doi.org/10.5281/zenodo.2566455
+6. Kiar, G. (2019). preprocessing. Retrieved from https://github.com/gkiar/stability/tree/master/code/preprocessing 
+7. Kiar, G. (2019). mask2boundary. Retrieved from https://github.com/gkiar/mask2boundary
+8. Klein, A. and J. Tourville (2012). 101 labeled brain images and a consistent human cortical labeling protocol. Frontiers in Neuroscience 6: 171.https://doi.org/10.3389/fnins.2012.00171
