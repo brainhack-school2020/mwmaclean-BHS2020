@@ -1,7 +1,8 @@
-# Learning to organize, preprocess, analyze and visualize dMRI data with new tools. 
-## This project is part of the Brainhack Summer School 2020
+# Diffusion MRI- From raw data to mapping brain connectomes.
+## Organizing, preprocessing, analyzing and visualizing diffusion MRI data. 
+## This project is part of the Brainhack Summer School 2020.
 
-### Contributors: Michèle W. MacLean & Brainhack School members
+### Contributors: Michèle W. MacLean & Brainhack School Members
 
 <img src="images/bhs2020.png" width="70%">
 
