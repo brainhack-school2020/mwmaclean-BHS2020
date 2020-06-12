@@ -99,7 +99,7 @@ For the course:
 
 <img src="images/connectivity_matrix.gif" width="60%">
 
-<img src="images/connectomesub1.png" width="80%">
+<img src="images/connectome.gif" width="80%">
 
 <img src="images/connectome_glassbrain.gif" width="80%">
 
