@@ -24,7 +24,7 @@ The overall goal of the current project was to use the new tools learned during 
 This project explored the steps for analyzing diffusion magnetic resonance imaging data starting from the raw data all the way to data visualization. For this, I used previously acquired data from l'Unité de Neuroimagerie Fonctionnelle in Montréal. 
 
 **Project objectives during BHS 2020:** 
-The first steps were to 1) organize the MRI data in a BIDS friendly format and then 2) preprocess the data. Then, I  explored 3) analyzing diffusion MRI (i.e. tracking) and 4) performed data visualization.
+The first steps were to **1)** organize the MRI data in a BIDS friendly format and then **2)** preprocess the data. Then, I  explored **3)** analyzing diffusion MRI (i.e. tracking) and **4)** performed data visualization.
 
 **Overarching goal:**
 The long term goal is to investigate the consequences of a primary visual cortex lesion on structural and functional connectivity using both diffusion MRI and resting state functional connectivity.
@@ -101,7 +101,7 @@ For the course:
 
 <img src="images/connectomesub1.png" width="80%">
 
-<img src="images/connectome_glassbrain.png" width="80%">
+<img src="images/connectome_glassbrain.gif" width="80%">
 
 * The [jupyter notebook](https://github.com/brainhack-school2020/mwmaclean-BHS2020/blob/master/data_visualization/dMRI_data_visualization.ipynb) version of all three figures is interactive with a drop-down for each subject.
 * The connectivity matrices (.mat files) used for the data visualization can be found [here](https://github.com/brainhack-school2020/mwmaclean-BHS2020/tree/master/data_visualization/connectivity_matrices)
@@ -114,13 +114,14 @@ Organization of MRI data into BIDS format, preprocessing and basic tracking of t
 #### Tools I learned during this project
 * Bash terminal
 * GitHub
+* Markdown
 * Visual Studio Code
 * How to implement BIDS 
 * Python scripts 
 * Docker container 
 * DIPY for preprocessing and basic tracking of diffusion weighted images (DWI)
 * Jupyter Notebook 
-* Nilearn, plotly & matplotlib for data visualization
+* Interactive figures in Jupyter Notebook using data visualization librairies: Nilearn, plotly & matplotlib, etc.
 ![](images/tools.png)
 
 
